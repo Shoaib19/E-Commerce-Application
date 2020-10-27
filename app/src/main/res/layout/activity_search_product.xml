@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Buyers.SearchProductActivity">
+
+    <RelativeLayout
+        android:id="@+id/r5"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary">
+
+        <EditText
+            android:id="@+id/search_product_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/search_btn"
+            android:background="@drawable/grey_rounded_shape"
+            android:drawableStart="@drawable/ic_baseline_search_24"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:drawablePadding="8dp"
+            android:hint="Search"
+            android:padding="9dp"
+            android:textColor="@android:color/tab_indicator_text"
+            android:textColorHint="@android:color/tab_indicator_text"
+            android:textSize="18sp" />
+
+
+        <Button
+            android:id="@+id/search_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/input_design_two"
+            android:padding="9dp"
+            android:text="Search"
+            android:textAllCaps="false"
+            android:layout_marginRight="5dp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp"/>
+
+
+    </RelativeLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/r5" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/searched_product_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sorry, we couldn't find what you are looking for."
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textStyle="bold"
+        android:gravity="center"/>
+
+</RelativeLayout>
