@@ -23,7 +23,7 @@ public class AdminHomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_admin_home);
 
         logoutBtn = findViewById(R.id.admin_logout_btn);
-        checkOrdersBtn = findViewById(R.id.check_orders_btn);
+       // checkOrdersBtn = findViewById(R.id.check_orders_btn);
         maintainProductsBtn = findViewById(R.id.maintain_btn);
         checkApproveProductsBtn = findViewById(R.id.check_approve_products_btn);
 
@@ -47,13 +47,13 @@ public class AdminHomeActivity extends AppCompatActivity {
             }
         });
 
-        checkOrdersBtn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(AdminHomeActivity.this, AdminNewOrdersActivity.class);
-                startActivity(intent);
-            }
-        });
+//        checkOrdersBtn.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(AdminHomeActivity.this, AdminNewOrdersActivity.class);
+//                startActivity(intent);
+//            }
+//        });
 
         checkApproveProductsBtn.setOnClickListener(new View.OnClickListener() {
             @Override
