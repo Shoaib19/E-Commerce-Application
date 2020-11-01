@@ -46,9 +46,10 @@ src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main
 src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/cart_item.jpeg" width="30%">
 
 <img src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/seller_home.jpeg" width="30%"> <img 
-src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/add_new.jpeg" width="30%">
+src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/add_new.jpeg" width="30%"> <img
+src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/seller_registration.jpeg" width="30%">
 
-<img src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/seller_registration.jpeg" width="30%"> <img src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/admin_maintain_product.jpeg" width="30%">
+<img src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/admin_maintain_product.jpeg" width="30%">
 
 # Not Included
 1. Otp verification
