@@ -45,8 +45,7 @@ src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main
 src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/product_details.jpeg" width="30%"><img 
 src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/cart_item.jpeg" width="30%">
 
-<img src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/seller_home.jpeg" width="30%">  <img
-src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/seller_new_orders.jpeg" width="30%"> <img 
+<img src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/seller_home.jpeg" width="30%"> <img 
 src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/add_new.jpeg" width="30%">
 
 <img src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/seller_registration.jpeg" width="30%"> <img src="https://github.com/Shoaib19/E-Commerce-Application/blob/master/app/src/main/res/drawable/admin_maintain_product.jpeg" width="30%">
